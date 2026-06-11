@@ -1,5 +1,9 @@
-import faiss
+# backend/testapp.py
 
-index = faiss.IndexFlatL2(768)
+from fastapi import FastAPI
 
-print("FAISS Working")
+app = FastAPI()
+
+@app.get("/")
+def root():
+    return {"message": "Render works"}
