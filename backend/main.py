@@ -77,6 +77,7 @@ print("STEP 24 - FastAPI app created")
 origins = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
+    "https://researchmentorai.vercel.app",
 ]
 
 app.add_middleware(
