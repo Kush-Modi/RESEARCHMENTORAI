@@ -22,7 +22,9 @@ frontend/.next/
 frontend/out/
 frontend/.env.local
 
-# FAISS index files
+# Data / Embeddings / FAISS Indexes
+backend/data/embeddings/
+backend/data/faiss/
 backend/*.index
 backend/*.faiss
 backend/faiss_papers.index
